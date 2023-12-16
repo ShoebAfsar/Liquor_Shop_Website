@@ -1,0 +1,21 @@
+.custom-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .custom-card .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .custom-card:hover .card-body {
+    opacity: 1;
+  }
+  
